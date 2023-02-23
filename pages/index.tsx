@@ -1,5 +1,6 @@
 import Header from "../components/Header"
 import Main from "../components/Main"
+import Price from "../components/Price"
 
 const Home = () =>  {
   return (
@@ -7,6 +8,7 @@ const Home = () =>  {
       <div className="mw-[1100px] px-[100px] mobile:px-[20px]">
         <Header/>
         <Main/>
+        <Price/>
       </div>
     </div>
   )
