@@ -6,7 +6,7 @@ const Main = () => {
      <div className="flex justify-between items-center h-[calc(100vh-100px)] tablet:h-auto tablet:pt-[100px]">
         <div>
             <h1 className="text-[55px] font-bold leading-[65px] mobile:text-[40px] mobile:leading-[45px]">Вывоз строительного<br/>мусора</h1>
-            <div className="flex items-center text-2xl mt-8 mb-10 mobile:text-xl">
+            <div className="flex items-center  mt-8 mb-10 text-2xl mobile:text-xl">
                 <div className="w-[50px] h-[3px] rounded-full bg-[#FFAB27] mr-[16px]"></div>
                 в Минске и Минской обл.</div>
             <div className="flex mobile:flex-col">
