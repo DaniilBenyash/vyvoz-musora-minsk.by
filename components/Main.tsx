@@ -22,7 +22,7 @@ const Main = () => {
             <button className="text-xl font-medium py-[18px] px-[54px] bg-[#FFAB27] rounded-full mt-10 tablet:hidden">Узнать стоимость</button>
         </div>
         <div>
-            <Image src='/logo.svg' alt='logo' width={450} height={450} className='tablet:hidden'/>
+            <Image src='/logo.svg' alt='logo' width={450} height={450} priority={true} className='tablet:hidden'/>
         </div>
      </div>    
     )

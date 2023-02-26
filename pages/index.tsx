@@ -1,4 +1,5 @@
 import About from "../components/About"
+import Footer from "../components/Footer"
 import Header from "../components/Header"
 import Main from "../components/Main"
 import Price from "../components/Price"
@@ -11,6 +12,7 @@ const Home = () =>  {
         <Main/>
         <Price/>
         <About/>
+        <Footer/>
       </div>
     </div>
   )

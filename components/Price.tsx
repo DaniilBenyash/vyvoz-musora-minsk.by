@@ -36,7 +36,7 @@ const Price = () => {
                         </tr>
                         <tr className='border-b-[2px] border-[#FFAB27] text-2xl mobile:text-xl'>
                             <td className='py-[8px]'>Выезд</td>
-                            <td className='py-[8px]'>от 20 руб.</td>
+                            <td className='py-[8px]'>от 25 руб.</td>
                         </tr>
                         <tr className='border-b-[2px] border-[#FFAB27] text-2xl mobile:text-xl'>
                             <td className='py-[8px]'>Мешок (ходка) на лифте</td>
@@ -68,7 +68,9 @@ const Price = () => {
                         </tr>
                     </tbody>
                 </table>
+                
             </div>
+            <p className="mt-[10px]">!!! Цена за вывоз мусора указана в пределах МКАД. Стоимость услуги за пределами МКАД уточняйте по телефону.</p>
         </section>    
     )
 }
