@@ -2,7 +2,7 @@ import Title from "./Title"
 
 const Price = () => {
     return (
-        <section className="w-full tablet:mt-[100px]">
+        <section className="price w-full tablet:mt-[100px]">
             <Title name='Стоимость вывоза'/>
             <div className="bg-white shadow-2xl p-[50px] rounded-[40px] mobile:px-[30px]">
                 <table className="w-full text-center">

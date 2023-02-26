@@ -1,5 +1,5 @@
 import Image from "next/image"
-
+import { Link} from "react-scroll";
 
 const Main = () => {
     return (
@@ -19,7 +19,16 @@ const Main = () => {
                     <p className="text-xl font-medium leading-6 mobile:text-lg mobile:leading-5">Вывоз любой<br/>сложности</p>
                 </div>
             </div>
-            <button className="text-xl font-medium py-[18px] px-[54px] bg-[#FFAB27] rounded-full mt-10 tablet:hidden">Узнать стоимость</button>
+            <Link
+                activeClass="text-xl font-medium py-[18px] px-[54px] bg-[#FFAB27] rounded-full mt-10 tablet:hidden"
+                to="price"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={500}>
+                    <button className="text-xl font-medium py-[18px] px-[54px] bg-[#FFAB27] rounded-full mt-10 tablet:hidden">Узнать стоимость</button>
+                </Link>
+            
         </div>
         <div>
             <Image src='/logo.svg' alt='logo' width={450} height={450} priority={true} className='tablet:hidden'/>
