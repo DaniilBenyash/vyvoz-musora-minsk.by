@@ -1,7 +1,7 @@
 type tokenType = {
     "access_token": string,
     "token_type": string,
-    "expires_in": number
+    "expires_in": number,
 }
 
 export async function getToken(){
