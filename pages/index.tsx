@@ -3,6 +3,7 @@ import Footer from "../components/Footer"
 import Header from "../components/Header"
 import Main from "../components/Main"
 import Price from "../components/Price"
+import Gallery from "../components/Gallery"
 
 const Home = () =>  {
   return (
@@ -12,6 +13,7 @@ const Home = () =>  {
         <Main/>
         <Price/>
         <About/>
+        <Gallery/>
         <Footer/>
       </div>
     </div>
