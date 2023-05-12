@@ -1,6 +1,5 @@
 import Title from "./Title"
 import Image from "next/image"
-import Footer_button from "./Footer_button"
 
 type contacts = Array<{
     id: number,
@@ -38,12 +37,21 @@ const Footer = () => {
                     <h2 className="ml-[10px]">+375 (44) 775-15-76</h2>
                 </a>
                 <div className="flex">
-                    {contacts.map(el => {
-                        return (
-                            <Footer_button url={el.url} href={el.href} key={el.id}/>
-                        )
-                    })
-                    }
+                    <a href={contacts[0].href} className="flex items-center ml-[15px]">
+                        <div className='bg-[#FFAB27] p-[8px] rounded-full'>
+                            <Image src={contacts[0].url} width={30} height={30} alt={'icon'}/>
+                        </div>
+                    </a>
+                    <a href={contacts[1].href} className="flex items-center ml-[15px]">
+                        <div className='bg-[#FFAB27] p-[8px] rounded-full'>
+                            <Image src={contacts[1].url} width={30} height={30} alt={'icon'}/>
+                        </div>
+                    </a>
+                    <a href={contacts[2].href} className="flex items-center ml-[15px]">
+                        <div className='bg-[#FFAB27] p-[8px] rounded-full'>
+                            <Image src={contacts[2].url} width={30} height={30} alt={'icon'}/>
+                        </div>
+                    </a>
                 </div>
             </div>
         </footer>    
