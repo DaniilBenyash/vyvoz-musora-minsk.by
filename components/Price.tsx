@@ -48,7 +48,7 @@ const Price = () => {
                         </tr>
                         <tr className='border-b-[2px] border-[#FFAB27] text-2xl mobile:text-xl'>
                             <td className='py-[8px]'>Мешок (ходка) на лифте</td>
-                            <td className='py-[8px]'>60 коп.</td>
+                            <td className='py-[8px]'>70 коп.</td>
                         </tr>
                         <tr className='border-b-[2px] border-[#FFAB27] text-2xl mobile:text-xl'>
                             <td className='py-[8px]'>Мешок (ходка) пешком - 1 этаж</td>
