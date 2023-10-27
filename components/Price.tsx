@@ -15,16 +15,24 @@ const Price = () => {
                             <th className='pb-[10px]'>Цена</th>
                         </tr>
                         <tr className='border-b-[2px] border-[#FFAB27] text-2xl mobile:text-xl'>
+                            <td className='py-[8px]'>до 500 кг / 1 - 2 м<sup>3</sup><br/> (до 15 мешков)</td>
+                            <td className='py-[8px]'>60 р.</td>
+                        </tr>
+                        <tr className='border-b-[2px] border-[#FFAB27] text-2xl mobile:text-xl'>
                             <td className='py-[8px]'>до 1 т. / 3 - 4 м<sup>3</sup><br/> (до 30 мешков)</td>
-                            <td className='py-[8px]'>60 руб.</td>
+                            <td className='py-[8px]'>75 р.</td>
                         </tr>
                         <tr className='border-b-[2px] border-[#FFAB27] text-2xl mobile:text-xl'>
                             <td className='py-[8px]'>до 2 т. / 6 - 7 м<sup>3</sup><br/> (до 60 мешков)</td>
-                            <td className='py-[8px]'>100 руб.</td>
+                            <td className='py-[8px]'>110 р.</td>
                         </tr>
                         <tr className='border-b-[2px] border-[#FFAB27] text-2xl mobile:text-xl'>
-                            <td className='py-[8px]'>до 3-5 т. / 10 - 20 м<sup>3</sup><br/> (90 - 150 мешков)</td>
-                            <td className='py-[8px]'>130 - 180 руб.</td>
+                            <td className='py-[8px]'>до 3 т. / 10 м<sup>3</sup><br/> (до 90 мешков)</td>
+                            <td className='py-[8px]'>170 р.</td>
+                        </tr>
+                        <tr className='border-b-[2px] border-[#FFAB27] text-2xl mobile:text-xl'>
+                            <td className='py-[8px]'>до 4-6 т. / 12 - 20 м<sup>3</sup><br/> (120 - 180 мешков)</td>
+                            <td className='py-[8px]'>200 - 300 р.</td>
                         </tr>
 
                         <tr className='text-[35px] text-left leading-none mobile:text-[25px]'>
@@ -36,19 +44,19 @@ const Price = () => {
                         </tr>
                         <tr className='border-b-[2px] border-[#FFAB27] text-2xl mobile:text-xl'>
                             <td className='py-[8px]'>Выезд</td>
-                            <td className='py-[8px]'>от 25 руб.</td>
+                            <td className='py-[8px]'>от 25 р.</td>
                         </tr>
                         <tr className='border-b-[2px] border-[#FFAB27] text-2xl mobile:text-xl'>
                             <td className='py-[8px]'>Мешок (ходка) на лифте</td>
-                            <td className='py-[8px]'>0.6 руб.</td>
+                            <td className='py-[8px]'>60 коп.</td>
                         </tr>
                         <tr className='border-b-[2px] border-[#FFAB27] text-2xl mobile:text-xl'>
                             <td className='py-[8px]'>Мешок (ходка) пешком - 1 этаж</td>
-                            <td className='py-[8px]'>0.3 руб.</td>
+                            <td className='py-[8px]'>35 коп.</td>
                         </tr>
                         <tr className='border-b-[2px] border-[#FFAB27] text-2xl mobile:text-xl'>
                             <td className='py-[8px]'>Часовые работы</td>
-                            <td className='py-[8px]'>от 10 руб./ч.</td>
+                            <td className='py-[8px]'>от 15 р./ч.</td>
                         </tr>
 
                         <tr className='text-[35px] text-left leading-none mobile:text-[25px]'>
@@ -60,11 +68,11 @@ const Price = () => {
                         </tr>
                         <tr className='border-b-[2px] border-[#FFAB27] text-2xl mobile:text-xl'>
                             <td className='py-[8px]'>В черте города</td>
-                            <td className='py-[8px]'>25 руб./2 часа</td>
+                            <td className='py-[8px]'>30 р. / 2 часа</td>
                         </tr>
                         <tr className='border-b-[2px] border-[#FFAB27] text-2xl mobile:text-xl'>
                             <td className='py-[8px]'>За пределы МКАД</td>
-                            <td className='py-[8px]'>от 1.5 руб./км.</td>
+                            <td className='py-[8px]'>от 2 р./км</td> 
                         </tr>
                     </tbody>
                 </table>

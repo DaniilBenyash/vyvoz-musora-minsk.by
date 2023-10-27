@@ -6,6 +6,7 @@ import Head from 'next/head'
 const rubik = Rubik({subsets: ['latin'], display: 'swap'})
 
 const App = ({ Component, pageProps }: AppProps) => {
+  console.log(process.env.REACT_APP_FIREBASE_CONFIG);
   return (
     <>
       <Head>
