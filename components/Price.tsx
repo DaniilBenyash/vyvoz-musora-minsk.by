@@ -16,23 +16,23 @@ const Price = () => {
                         </tr>
                         <tr className='border-b-[2px] border-[#FFAB27] text-2xl mobile:text-xl'>
                             <td className='py-[8px]'>до 500 кг / 1 - 2 м<sup>3</sup><br/> (до 15 мешков)</td>
-                            <td className='py-[8px]'>60 р.</td>
+                            <td className='py-[8px]'>75 - 80 р.</td>
                         </tr>
                         <tr className='border-b-[2px] border-[#FFAB27] text-2xl mobile:text-xl'>
                             <td className='py-[8px]'>до 1 т. / 3 - 4 м<sup>3</sup><br/> (до 30 мешков)</td>
-                            <td className='py-[8px]'>75 р.</td>
+                            <td className='py-[8px]'>90 - 100 р.</td>
                         </tr>
                         <tr className='border-b-[2px] border-[#FFAB27] text-2xl mobile:text-xl'>
                             <td className='py-[8px]'>до 2 т. / 6 - 7 м<sup>3</sup><br/> (до 60 мешков)</td>
-                            <td className='py-[8px]'>110 р.</td>
+                            <td className='py-[8px]'>110 - 130 р.</td>
                         </tr>
                         <tr className='border-b-[2px] border-[#FFAB27] text-2xl mobile:text-xl'>
                             <td className='py-[8px]'>до 3 т. / 10 м<sup>3</sup><br/> (до 90 мешков)</td>
-                            <td className='py-[8px]'>170 р.</td>
+                            <td className='py-[8px]'>170 - 200 р.</td>
                         </tr>
                         <tr className='border-b-[2px] border-[#FFAB27] text-2xl mobile:text-xl'>
                             <td className='py-[8px]'>до 4-6 т. / 12 - 20 м<sup>3</sup><br/> (120 - 180 мешков)</td>
-                            <td className='py-[8px]'>200 - 300 р.</td>
+                            <td className='py-[8px]'>250 - 300 р.</td>
                         </tr>
 
                         <tr className='text-[35px] text-left leading-none mobile:text-[25px]'>
