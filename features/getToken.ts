@@ -21,13 +21,14 @@ export async function getToken(){
             const refreshToken = await fetch(url+dataToken.access_token)
             const dataRefreshToken: tokenType = await refreshToken.json()
 
-            return await firebase.setData(dataRefreshToken)
+            const savedToken: any = await firebase.setData(dataRefreshToken)
+            return savedToken?.access_token
             
         } catch(error: any){
             console.log(error);
         }
         
     }else{
-        return dataToken.access_token
+        return dataToken?.access_token
     }
 }
