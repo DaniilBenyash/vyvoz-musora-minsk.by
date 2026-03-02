@@ -34,7 +34,7 @@ type response = {
 
 const url = "https://graph.instagram.com/me/media?fields=id,media_type,media_url,caption,timestamp,thumbnail_url,permalink,children{fields=id,media_url,thumbnail_url,permalink}&limit=6&access_token="
 
-export async function getPosts() {
+export async function getPosts(): Promise<data[]> {
     try{
         const token = await getToken()
         
@@ -42,10 +42,9 @@ export async function getPosts() {
         
         const data = await response.json()
         
-        return data.data
+        return Array.isArray(data?.data) ? data.data : []
 
     } catch(error: any){
-
-        return error
+        return []
     }
 }

@@ -10,54 +10,71 @@ const Price = () => {
                         <tr className='text-[35px] text-left leading-none mobile:text-[25px]'>
                             <th colSpan={2} className='pb-[15px]'>Автомобиль (без грузчиков)</th>
                         </tr>
+                        <tr>
+                            <td colSpan={2} className='pb-[10px] text-lg font-medium text-[#FFAB27]'>ВАЖНО!!! Вес мешков 30 кг</td>
+                        </tr>
                         <tr className="border-b-[2px] border-[#FFAB27] text-xl font-medium leading-6 mobile:text-lg mobile:leading-5">
                             <th className='pb-[10px]'>Объем</th>
                             <th className='pb-[10px]'>Цена</th>
                         </tr>
                         <tr className='border-b-[2px] border-[#FFAB27] text-2xl mobile:text-xl'>
-                            <td className='py-[8px]'>до 500 кг / 1 - 2 м<sup>3</sup><br/> (до 15 мешков)</td>
-                            <td className='py-[8px]'>от 75 р.</td>
+                            <td className='py-[8px]'>до 1 т. (3 м<sup>3</sup>)<br/> (до 30 мешков)</td>
+                            <td className='py-[8px]'>от 100 р.</td>
                         </tr>
                         <tr className='border-b-[2px] border-[#FFAB27] text-2xl mobile:text-xl'>
-                            <td className='py-[8px]'>до 1 т. / 3 - 4 м<sup>3</sup><br/> (до 30 мешков)</td>
-                            <td className='py-[8px]'>от 90 р.</td>
+                            <td className='py-[8px]'>до 1.5 т. (5 м<sup>3</sup>)<br/> (до 50 мешков)</td>
+                            <td className='py-[8px]'>от 150 р.</td>
                         </tr>
                         <tr className='border-b-[2px] border-[#FFAB27] text-2xl mobile:text-xl'>
-                            <td className='py-[8px]'>до 2 т. / 6 - 7 м<sup>3</sup><br/> (до 60 мешков)</td>
-                            <td className='py-[8px]'>от 120 р.</td>
+                            <td className='py-[8px]'>до 2 т. (7 м<sup>3</sup>)<br/> (до 70 мешков)</td>
+                            <td className='py-[8px]'>от 200 р.</td>
                         </tr>
                         <tr className='border-b-[2px] border-[#FFAB27] text-2xl mobile:text-xl'>
-                            <td className='py-[8px]'>до 3 т. / 10 м<sup>3</sup><br/> (до 90 мешков)</td>
-                            <td className='py-[8px]'>от 180 р.</td>
+                            <td className='py-[8px]'>до 3 т. (10 м<sup>3</sup>)<br/> (до 100 мешков)</td>
+                            <td className='py-[8px]'>от 250 р.</td>
                         </tr>
                         <tr className='border-b-[2px] border-[#FFAB27] text-2xl mobile:text-xl'>
-                            <td className='py-[8px]'>до 4-6 т. / 12 - 20 м<sup>3</sup><br/> (120 - 180 мешков)</td>
-                            <td className='py-[8px]'>270 - 350 р.</td>
+                            <td className='py-[8px]'>до 4–5 т. (15–19 м<sup>3</sup>)<br/> (120–160 мешков)</td>
+                            <td className='py-[8px]'>от 300–370 р.</td>
+                        </tr>
+                        <tr className='border-b-[2px] border-[#FFAB27] text-2xl mobile:text-xl'>
+                            <td className='py-[8px]' colSpan={2}>Объёмный лёгкий мусор (картон, мебель, деревянные полы и др.) оценивается по занятому объёму, а не по мешкам</td>
                         </tr>
 
                         <tr className='text-[35px] text-left leading-none mobile:text-[25px]'>
-                            <th colSpan={2} className='pb-[15px] pt-[40px]'>Грузчики</th>
+                            <th colSpan={2} className='pb-[5px] pt-[40px]'>Грузчики</th>
                         </tr>
+                      
                         <tr className="border-b-[2px] border-[#FFAB27] text-xl font-medium leading-6 mobile:text-lg mobile:leading-5">
                             <th className='pb-[10px]'>Услуга</th>
                             <th className='pb-[10px]'>Цена</th>
                         </tr>
                         <tr className='border-b-[2px] border-[#FFAB27] text-2xl mobile:text-xl'>
-                            <td className='py-[8px]'>Выезд</td>
-                            <td className='py-[8px]'>от 35 р.</td>
+                            <td className='py-[8px]'>Выезд бригады</td>
+                            <td className='py-[8px]'>35 р.</td>
                         </tr>
                         <tr className='border-b-[2px] border-[#FFAB27] text-2xl mobile:text-xl'>
-                            <td className='py-[8px]'>Мешок (ходка) на лифте</td>
-                            <td className='py-[8px]'>80 коп.</td>
+                            <td className='py-[8px]'>Мешок пешком</td>
+                            <td className='py-[8px]'>40 коп./этаж</td>
                         </tr>
                         <tr className='border-b-[2px] border-[#FFAB27] text-2xl mobile:text-xl'>
-                            <td className='py-[8px]'>Мешок (ходка) пешком - 1 этаж</td>
-                            <td className='py-[8px]'>40 коп.</td>
+                            <td className='py-[8px]'>Мешок пешком (хрущёвки)</td>
+                            <td className='py-[8px]'>50 коп./этаж</td>
+                        </tr>
+                        <tr className='border-b-[2px] border-[#FFAB27] text-2xl mobile:text-xl'>
+                            <td className='py-[8px]'>Мешок пешком (сталинки)</td>
+                            <td className='py-[8px]'>60 коп./этаж</td>
+                        </tr>
+                        <tr className='border-b-[2px] border-[#FFAB27] text-2xl mobile:text-xl'>
+                            <td className='py-[8px]'>Мешок на лифте</td>
+                            <td className='py-[8px]'>1 р.</td>
                         </tr>
                         <tr className='border-b-[2px] border-[#FFAB27] text-2xl mobile:text-xl'>
                             <td className='py-[8px]'>Часовые работы</td>
                             <td className='py-[8px]'>от 15 р./ч.</td>
                         </tr>
+                      
+                        
 
                         <tr className='text-[35px] text-left leading-none mobile:text-[25px]'>
                             <th colSpan={2} className='pb-[15px] pt-[40px]'>Грузоперевозки</th>

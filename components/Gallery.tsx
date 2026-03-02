@@ -12,8 +12,7 @@ const Gallery = () => {
         
         getPosts()
         .then((result) => {
-            if(!ignore && result as Array<data>){
-
+            if (!ignore && Array.isArray(result)) {
                 setCards(result)                
             }
         })
@@ -23,24 +22,19 @@ const Gallery = () => {
         }
     }, [])
 
+    const hasCards = Array.isArray(cards) && cards.length > 0
+
+    if (!hasCards) return null
+
     return (
         <>
-            {cards !== null
-            ?
-            <>
-                <Title name="Наши последние работы"/>
-                <section className="flex flex-col items-center relative">
-                    <div className="grid grid-cols-3 gap-[30px] w-full tablet:grid-cols-2 mobile:grid-cols-1">
-                        {cards.map(card => <CardInstagram {...card} key={card.id}/>)}
-                    </div> 
-                </section>
-            </>
-            
-            :
-            null
-            }
+            <Title name="Наши последние работы"/>
+            <section className="flex flex-col items-center relative">
+                <div className="grid grid-cols-3 gap-[30px] w-full tablet:grid-cols-2 mobile:grid-cols-1">
+                    {cards.map(card => <CardInstagram {...card} key={card.id}/>)}
+                </div> 
+            </section>
         </>
-        
     )
 }
 
